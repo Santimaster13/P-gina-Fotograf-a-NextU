@@ -1,0 +1,180 @@
+html {
+	background-color: #02010a;
+}
+
+
+
+header {
+	background-color: #5b7989;
+  border-top: 5px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+body{
+	font-family: 'Dancing Script', cursive;
+}
+
+h1{
+	color: white;
+}
+
+	#tituloprincipal {
+		text-align: left;
+		font-color: #FFFFFF;
+		text-shadow: 2px 2px #02010a;
+	}
+
+nav{
+	text-align: right;
+  word-spacing: 15px;
+}
+
+   a{
+		font-size: 25px;
+		text-decoration: none;
+    color: white;
+
+ }
+
+.contenido{
+ background-color: black;
+ width: 900px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border: 17px hidden black;
+ border-radius: 15px;
+}
+
+
+ .c{
+   width: 100%;
+
+ }
+
+ .c1{
+   width: 33%;
+   float:left;
+ }
+
+ .cc{
+   width: 66%;
+   float: right;
+ }
+
+ .c2{
+   width: 50%;
+   float: left;
+ }
+
+ .c3{
+   width: 50%;
+   float: right;
+ }
+
+ img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   width: 80%;
+}
+
+#imgsobra{
+  width: 0px;
+  display: none;
+}
+
+#imgretratos1{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+#imgretratos3{
+  filter:sepia(90%);
+  -webkit-filter:sepia(90%);
+}
+
+img:nth-child(even){
+filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
+}
+
+footer{
+	border-bottom: : 5px solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.footert > div {
+	width: 50%;
+	background-color: #C6d5c5;
+}
+
+.foot1, .fc1, .fc3{
+	float: left;
+}
+
+.foot2, .fc2, .fc4{
+	float: right;
+}
+
+h3, p{
+text-align: center;
+}
+
+.foot1{
+  border-bottom-left-radius: 10px;
+  border-bottom: 5px solid black
+}
+
+.foot2{
+  border-bottom-right-radius: 10px;
+  border-bottom: 5px solid black
+}
+
+ @media (max-width:900px) {
+
+div{
+  width: 100%;
+}
+
+.contenido, .cc, .c1, .c2, .c3{
+  width: 100%;
+}
+
+#imgretratos2{
+  filter:sepia(90%);
+  -webkit-filter:sepia(90%);
+}
+
+#imgretratos5{
+  filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+  }
+
+  #imgretratos3{
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  div.foot1{
+    width:100%;
+    order: 1;
+  }
+
+  div.foot2{
+    width:100%;
+    order: 2;
+  }
+
+  .foot1{
+    border-bottom-left-radius: 0px;
+  }
+
+  .foot2{
+    border-bottom-left-radius: 10px;
+  }
+}
